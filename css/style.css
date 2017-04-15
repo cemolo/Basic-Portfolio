@@ -1,0 +1,169 @@
+body, html{
+	width: 100%;
+	height:100%;
+	margin: auto;
+	padding: 0; 
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+nav{
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	min-width: 960px;
+	width: 100%;
+	margin-bottom: 40px;
+	border: solid 6px black;
+}
+
+header{
+	border: double 6px black;
+}
+
+ul{
+
+}
+
+
+li{
+	display: inline-block;
+
+}
+
+.wrapper{
+	width: 100%;
+	padding-top: 40px;
+}
+
+.logo{
+	text-align: left;
+	/*float: left;*/
+    padding-right: 28%;
+    padding-left: 48px;
+    font-size:26px;
+	text-transform: uppercase;
+}
+
+.logo-wrapper{
+	text-align: left;
+	background-color: #00518b;
+    height: 40px;
+    padding: 20px 10px 0 10px;
+    overflow: hidden;
+}
+
+.links{
+	color: blue; 
+	padding: 10px 10px 30px 10px;
+	text-transform: uppercase;
+	font-size:18px;
+}
+
+.container{ 
+	background-image: url(../images/city-lights.png);
+	height: auto;
+	min-width: 960px;
+	width: 100%;
+	height: 900px;
+	margin: auto;
+	/*padding-top: 50px;*/
+	padding: 50px 20px 50px 20px;
+ }
+
+ .main{
+ 	background: rgb(255, 255, 255) transparent;
+/* nice browsers */
+	background: rgba(255, 255, 255, 0.1);
+ 	height:auto;
+ 	color: white;
+ 	float: left;
+ 	width: 590px;
+ 	padding: 30px;
+ 	margin-right: 20px;
+
+
+ }
+
+  .sidebar{
+	background-color: white;
+ 	height:auto;
+ 	float: right;
+ 	width: 240px;
+ 	padding: 20px;
+ 	background: rgba(255, 255, 255, 0.1);
+ }
+
+ .about-title{
+ 	font-size: 26px;
+ }
+
+ .about-text{
+ 	padding-left: 10px;
+ }
+
+ .about-img{
+ 	margin-right: 15px;
+ }
+
+ .connect-title{
+ 	font-size: 18px;
+ 	color: white
+ }
+
+ #footer {
+ 	float: bottom;
+	background:#f7f7f7;
+	border-top:1px solid #f0e9eb;
+	padding:10px 15px;
+	clear:both;
+}
+
+.main2 {
+ 	background: rgb(255, 255, 255) transparent;
+/* nice browsers */
+	background: rgba(255, 255, 255, 0.1);
+ 	height:auto;
+ 	color: white;
+ 	float: left;
+ 	width: 590px;
+ 	padding: 30px;
+ 	margin-right: 20px;
+}
+
+#box1 {
+    color: white;
+ 	float: left;
+ 	width: 300px;
+ 	hight: 10px;
+ 	bottom:10;
+ 	top: 10px;
+ 	padding: 100px;
+ 	background-color:beige
+ 	}
+#box2 {
+	color: white;
+ 	float: left;
+ 	width: 300px;
+ 	hight: 10px;
+ 	bottom:10;
+ 	top: 10px;
+ 	padding: 100px;
+ 	background-color:beige
+ }
+#box3{
+	color: white;
+ 	float: left;
+ 	width: 300px;
+ 	hight: 10px;
+ 	bottom:10;
+ 	top: 10px;
+ 	padding: 100px;
+ 	background-color:beige
+}
